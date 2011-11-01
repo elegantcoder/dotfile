@@ -5,7 +5,7 @@ ln -s .dotfiles/bash_profile .bash_profile
 ln -s .dotfiles/bashrc .bashrc
 
 if [ -f ~/.gitconfig ]; then
-   mv ~/.gitconfig .gitconfig_bak
+#   mv ~/.gitconfig .gitconfig_bak
    ln -s .dotfiles/gitconfig .gitconfig
 fi
 
