@@ -3,7 +3,11 @@
 cd ~
 ln -s .dotfiles/bash_profile .bash_profile
 ln -s .dotfiles/bashrc .bashrc
-ln -s .dotfiles/gitconfig .gitconfig
+
+if [ -f ~/.gitconfig ]; then
+   mv ~/.gitconfig .gitconfig_bak
+   ln -s .dotfiles/gitconfig .gitconfig
+fi
 
 # brew
 # https://github.com/mxcl/homebrew/wiki/installation
