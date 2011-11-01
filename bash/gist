@@ -1,0 +1,4 @@
+ #github.com
+ git config --global github.token "81b0f987c97789a72c295e266f8de3de"
+ export PATH="$HOME/.rbenv/bin:$PATH"
+ eval "$(rbenv init -)"
