@@ -8,3 +8,4 @@ source ~/.dotfiles/bash/gist
 if [ -f ~/.localrc ]; then
      source ~/.localrc
 fi
+source /Users/rhio/perl5/perlbrew/etc/bashrc
