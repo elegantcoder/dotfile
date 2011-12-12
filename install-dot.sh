@@ -42,3 +42,9 @@ git clone git://github.com/creationix/nvm.git ~/.nvm
 #
 git add -A
 git commit -a -m 'installed dot files'
+
+# markdown to confluence
+# need python
+# https://github.com/dirkk0/Markdown-Converter
+chmod -x ~/.dotfiles/scripts/markdown2confluence.sh
+ln -s /usr/local/bin/md2conf ~/.dotfiles/scripts/markdown2confluence.sh
