@@ -1,0 +1,3 @@
+[submodule "scripts/Markdown-Converter"]
+	path = scripts/Markdown-Converter
+	url = https://github.com/dirkk0/Markdown-Converter.git
