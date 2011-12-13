@@ -43,6 +43,10 @@ git clone git://github.com/creationix/nvm.git ~/.nvm
 git add -A
 git commit -a -m 'installed dot files'
 
+# git submodule update --init
+# 
+git submdoule update --init
+
 # markdown to confluence
 # need python
 # https://github.com/dirkk0/Markdown-Converter
