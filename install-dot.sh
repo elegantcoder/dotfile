@@ -27,8 +27,15 @@ fi
 
 
 # install git
+# git-extra
+# git-flow
+# git-multipush
+# 
 # 
 brew install git
+brew install git-extra
+brew install git-flow
+brew install git-multipush
 
 # install rvm (Ruby enViroment or Version Manager)
 # https://github.com/wayneeseguin/rvm
