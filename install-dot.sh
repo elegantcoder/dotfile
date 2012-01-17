@@ -59,3 +59,8 @@ git submdoule update --init
 # https://github.com/dirkk0/Markdown-Converter
 chmod +x ~/.dotfiles/scripts/markdown2confluence.sh
 ln -s ~/.dotfiles/scripts/markdown2confluence.sh /usr/local/bin/md2conf
+
+# dotjs 
+# chrome extension
+# https://github.com/defunkt/dotjs
+ln -s ~/.dotfiles/chrome_dotjs/ ~/.js
