@@ -25,6 +25,10 @@ fi
 # https://github.com/mxcl/homebrew/wiki/installation
 /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 
+# install vcprompt
+# https://github.com/djl/vcprompt
+curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/.dotfiles/bash/bin/vcprompt
+chmod 755 ~/.dotfiles/bash/bin/vcprompt
 
 # install git
 # git-extra

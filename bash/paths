@@ -4,6 +4,9 @@
 # node.js install option for path
 export PATH=$HOME/local/node/bin:$PATH
 
+# .dotfile path
+export PATH=$HOME/.dotfiles/bash/bin:$PATH
+
 # Ruby Version manager
 export rvm_project_rvmrc=0
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
