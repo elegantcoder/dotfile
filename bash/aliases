@@ -15,6 +15,7 @@
  alias gpu='git pull'
  alias gcl='git clone'
  alias gmpu='git multipush' 
+ alias grl='git lg'
   
  ## General
  alias ..='cd ..'
