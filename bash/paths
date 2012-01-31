@@ -2,10 +2,10 @@
 . ~/.nvm/nvm.sh     
 
 # node.js install option for path
-export PATH=$HOME/local/node/bin:$PATH
+export PATH=$PATH:$HOME/local/node/bin
 
 # .dotfile path
-export PATH=$HOME/.dotfiles/bash/bin:$PATH
+export PATH=$PATH:$HOME/.dotfiles/bash/bin
 
 # Ruby Version manager
 export rvm_project_rvmrc=0
