@@ -1,14 +1,2 @@
-c_cyan=`tput setaf 6`
-c_dark=`tput setaf 0`
-c_red=`tput setaf 1`
-c_green=`tput setaf 2`
-c_pink=`tput setaf 5`
-c_blue=`tput setaf 4`
-c_sgr0=`tput sgr0`
- 
-show_repo ()
-{
-   echo -e "$(VCPROMPT_FORMAT=($(tput setaf 3)%s$(tput sgr0):$(tput setaf 6)%h$(tput sgr0)@$(tput setaf 2)%b$(tput setaf 1)%m$(tput setaf 5)%u$(tput sgr0)) vcprompt)"
-}
-    
-export PS1='\[${c_green}\]\u\[${c_sgr0}\]@\[${c_blue}\]Ninja\[${c_sgr0}\]:\w\[${c_sgr0}\] $(show_repo)\$ '
+export PS1='\033[0;32m\]\u\033[37m\]@Ninja:\w $(VCPROMPT_FORMAT=(\033[39m\]%s\033[35m\]:\033[1\;31m\]%h\033[0\;35m\]@\033[36m\]%b\033[31m\]%m\033[31m\]%u\033[0\;37m\]) vcprompt) \033[0;39m\]\n\$ '
+
