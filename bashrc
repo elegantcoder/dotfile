@@ -6,6 +6,15 @@ source ~/.dotfiles/bash/gist
 
 # use .localrc for settings specific to one system
 if [ -f ~/.localrc ]; then
-     source ~/.localrc
+    source ~/.localrc
 fi
-source /Users/rhio/perl5/perlbrew/etc/bashrc
+
+# use .perlbrew for setting specific to on system
+if [ -f $HOME/perl5 ]; then
+    source /Users/rhio/perl5/perlbrew/etc/bashrc
+fi
+
+# Load RVM into a shell session *as a function*
+if [ -f $HOME/.rvm ]; then
+    [[ -s "/Users/rhio/.rvm/scripts/rvm" ]] && source "/Users/rhio/.rvm/scripts/rvm" 
+fi

@@ -8,8 +8,10 @@ export PATH=$PATH:$HOME/local/node/bin
 export PATH=$PATH:$HOME/.dotfiles/bash/bin
 
 # Ruby Version manager
-export rvm_project_rvmrc=0
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+if [ -f "$HOME/.rbenv" ]; then
+    export PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
+fi
 
 # node.js NODE_PATH enviromenet variables
 export NODE_PATH=$HOME/node_modules
