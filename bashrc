@@ -15,6 +15,4 @@ if [ -f $HOME/perl5 ]; then
 fi
 
 # Load RVM into a shell session *as a function*
-if [ -f $HOME/.rvm ]; then
-    [[ -s "/Users/rhio/.rvm/scripts/rvm" ]] && source "/Users/rhio/.rvm/scripts/rvm" 
-fi
+[[ -s "/Users/rhio/.rvm/scripts/rvm" ]] && source "/Users/rhio/.rvm/scripts/rvm" 

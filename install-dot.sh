@@ -63,3 +63,7 @@ git submdoule update --init
 # https://github.com/dirkk0/Markdown-Converter
 chmod +x ~/.dotfiles/scripts/markdown2confluence.sh
 ln -s ~/.dotfiles/scripts/markdown2confluence.sh /usr/local/bin/md2conf
+
+# SCM Breeze : Git status shortcut
+git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
+~/.scm_breeze/install.sh
