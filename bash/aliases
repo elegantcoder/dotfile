@@ -7,7 +7,7 @@
  alias gd='git diff'
  alias gdc='git diff --cached'
  alias gm='git commit -m'
- alias gma='git commit -am'
+ alias gma='git_add_and_commit'
  alias gb='git branch'
  alias gc='git checkout'
  alias gra='git remote add'
