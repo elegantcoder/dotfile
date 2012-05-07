@@ -8,10 +8,10 @@ export PATH=$PATH:$HOME/local/node/bin
 export PATH=$PATH:$HOME/.dotfiles/bash/bin
 
 # Ruby Version manager
-if [ -f "$HOME/.rbenv" ]; then
-    export PATH="$HOME/.rbenv/bin:$PATH"
-    eval "$(rbenv init -)"
-fi
+#if [ -f "$HOME/.rbenv" ]; then
+#    export PATH="$HOME/.rbenv/bin:$PATH"
+#    eval "$(rbenv init -)"
+#fi
 
 # node.js NODE_PATH enviromenet variables
 export NODE_PATH=$HOME/node_modules
@@ -19,3 +19,6 @@ export NODE_PATH=$HOME/node_modules
 # MacPorts Installer addition on 2011-08-03_at_12:33:22: adding an appropriate PATH variable for use with MacPorts.               
 # export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
+
+# SCM Breeze - Git Shortcuts 
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && . "$HOME/.scm_breeze/scm_breeze.sh"

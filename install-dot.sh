@@ -68,3 +68,8 @@ ln -s ~/.dotfiles/scripts/markdown2confluence.sh /usr/local/bin/md2conf
 # chrome extension
 # https://github.com/defunkt/dotjs
 ln -s ~/.dotfiles/chrome_dotjs/ ~/.js
+
+# SCM Breeze : Git status shortcut
+# http://madebynathan.com/2011/10/18/git-shortcuts-like-youve-never-seen-before/
+git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
+~/.scm_breeze/install.sh
