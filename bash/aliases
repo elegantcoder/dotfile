@@ -6,8 +6,8 @@
  alias gs='git status'
  alias gd='git diff'
  alias gdc='git diff --cached'
- alias gm='git commit -m'
- alias gma='git_add_and_commit'
+ alias gm='git merge'
+ alias gma='git commit -am'
  alias gb='git branch'
  alias gc='git checkout'
  alias gra='git remote add'
@@ -16,6 +16,7 @@
  alias gcl='git clone'
  alias gmpu='git multipush' 
  alias grl='git lg'
+ alias grld='git lgd'
   
  ## General
  alias ..='cd ..'
